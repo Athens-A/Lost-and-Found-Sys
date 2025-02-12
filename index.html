@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Lost and Found</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>University Lost and Found</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Announcements</a></li>
+            <li><a href="#">Moodle</a></li>
+            <li><a href="#">Chat</a></li>
+        </ul>
+    </nav>
+
+    <!-- Lost and Found Section -->
+    <section class="container">
+        <div id="lost-items-app"></div> <!-- React App will render here -->
+    </section>
+
+    <!-- Google Map -->
+ <div id="map"></div>
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="script.js"></script>
+    <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15959.215626877216!2d35.9635244!3d-0.1540096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1739355047084!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+</html>
