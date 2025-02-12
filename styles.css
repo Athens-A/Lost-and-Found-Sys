@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #e6f0f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #003366;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Form */
+.lost-item-form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #bbb;
+}
+
+.lost-item-form input,
+.lost-item-form button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.lost-item-form button {
+    background: #003366;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Image Preview */
+.image-preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Lost Items List */
+.lost-item-list {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px #bbb;
+}
+
+.lost-item-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lost-item-list li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+/* Google Map */
+#map {
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left: 10px;;
+    top: 10px;;
+    height:30%;
+    width:40%;
+    position:absolute;
+
+}
